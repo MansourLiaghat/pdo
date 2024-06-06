@@ -9,12 +9,12 @@ $stmt->execute();
 
 
 
-//#Method 1
+//# Method 1
 //$sql = "UPDATE user SET city = 'tehran' WHERE id = :id";
 //$stmt->execute(['id'=>2]);
 
 
-//#Method 2
+//# Method 2
 //$sql = "UPDATE user SET city = 'tehran' WHERE id = ?";
 //$stmt->execute([2]);
 //
