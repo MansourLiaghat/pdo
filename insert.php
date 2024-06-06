@@ -2,7 +2,6 @@
 
 include_once 'connect.php';
 
-
 $sql = "INSERT INTO user (id, fullName, age, city) VALUES (?,?,?,?)";
 
 $stmt = $db->prepare($sql);
